@@ -8,4 +8,4 @@ Tabela de jogadores, é possível adicionar um jogador (nome, imagem,), calcular
 
 https://codepen.io/lillo42/full/LYLgMdO
 
-![imagem](C:\Users\danil\workspace\git_e_github\ImersaoDev_3_Alura\6.TabelaDeClassificacao\imagem.png)
+![image](https://user-images.githubusercontent.com/33943534/138500183-c42437eb-b61e-4391-8ca1-ff0e6821c01b.png)

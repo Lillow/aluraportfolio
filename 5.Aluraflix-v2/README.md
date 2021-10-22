@@ -8,4 +8,4 @@ O programa recebe o link de uma imagem e mostra na tela.
 
 https://codepen.io/lillo42/full/WNOJLjp
 
-![imagem](C:\Users\danil\workspace\git_e_github\ImersaoDev_3_Alura\5.Aluraflix-v2\imagem.png)
+![imagem](https://raw.githubusercontent.com/Lillow/ImersaoDev_3_Alura/main/5.Aluraflix-v2/imagem.png)

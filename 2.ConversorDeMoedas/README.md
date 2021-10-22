@@ -6,4 +6,4 @@ O programa recebe um valor em dóllar na cotação de 19/09/2021 e converte em r
 
 https://codepen.io/lillo42/full/MWoEWKP
 
-![imagem](C:\Users\danil\workspace\git_e_github\ImersaoDev_3_Alura\2.ConversorDeMoedas\imagem.png)
+![imagem](https://raw.githubusercontent.com/Lillow/ImersaoDev_3_Alura/main/2.ConversorDeMoedas/imagem.png)

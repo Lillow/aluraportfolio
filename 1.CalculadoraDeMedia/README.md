@@ -5,4 +5,4 @@ O programa consiste em receber 4 notas e exibir uma média.
 
 https://codepen.io/lillo42/full/JjJJzLb
 
-![imagem](C:\Users\danil\workspace\git_e_github\ImersaoDev_3_Alura\1.CalculadoraDeMedia\imagem.png)
+![imagem](https://raw.githubusercontent.com/Lillow/ImersaoDev_3_Alura/main/1.CalculadoraDeMedia/imagem.png)

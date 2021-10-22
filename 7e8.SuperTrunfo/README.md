@@ -8,4 +8,4 @@ Jogo de duelo de cartas com o computador
 
 https://codepen.io/lillo42/full/ExXJOeb
 
-![imagem](C:\Users\danil\workspace\git_e_github\ImersaoDev_3_Alura\7e8.SuperTrunfo\imagem.png)
+![image](https://user-images.githubusercontent.com/33943534/138500298-6a93a95d-9d85-4079-9577-2329ab92d1e9.png)

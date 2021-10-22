@@ -8,4 +8,4 @@ Portfólio versão 2.0.0
 
 https://codepen.io/lillo42/full/GREPbLj
 
-![imagem](C:\Users\danil\workspace\git_e_github\ImersaoDev_3_Alura\10.PortifolioV2\imagem.png)
+![imagem](https://raw.githubusercontent.com/Lillow/ImersaoDev_3_Alura/main/10.PortifolioV2/imagem.png)

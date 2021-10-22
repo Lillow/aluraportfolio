@@ -8,4 +8,4 @@ Exibe uma lista com 4 imagens.
 
 https://codepen.io/lillo42/full/VwWxGeN
 
-![imagem](C:\Users\danil\workspace\git_e_github\ImersaoDev_3_Alura\4.Aluraflix-v1\imagem.png)
+![imagem](https://raw.githubusercontent.com/Lillow/ImersaoDev_3_Alura/main/4.Aluraflix-v1/imagem.png)

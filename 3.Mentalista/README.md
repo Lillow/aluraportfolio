@@ -6,4 +6,4 @@ O programa randomiza um número de 1 a 10 e o usuário tenta acertar.
 
 https://codepen.io/lillo42/full/wvexXdd
 
-![imagem](C:\Users\danil\workspace\git_e_github\ImersaoDev_3_Alura\3.Mentalista\imagem.png)
+![image](https://user-images.githubusercontent.com/33943534/138500535-c3250ffd-8740-41b7-889c-051d8032b370.png)

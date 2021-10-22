@@ -8,4 +8,4 @@ Portfólio versão 1.0.0
 
 https://codepen.io/lillo42/full/gORQwKB
 
-![imagem](C:\Users\danil\workspace\git_e_github\ImersaoDev_3_Alura\9.PortifolioV1\imagem.png)
+![image](https://user-images.githubusercontent.com/33943534/138500374-ff53e2a0-47b6-41cc-af9f-81d2cbad1684.png)

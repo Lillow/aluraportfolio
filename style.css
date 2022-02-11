@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 
 body {
-    background: linear-gradient(236.85deg, #041832 27.26%, #3468a7 96.03%);
+    background: linear-gradient(236.85deg, #2c0052 27.26%, #8d0aff 96.03%);
     font-family: 'Press Start 2P';
 }
 
@@ -61,7 +61,7 @@ ul {
     display: flex;
     flex-direction: column;
     align-items: right;
-    background: linear-gradient(230.65deg, #499cfe 27.49%, #9cc8fc 83.19%);
+    background: linear-gradient(230.65deg, #4e1f49 27.49%, #b35faa 83.19%);
     margin-top: 32px;
     padding: 32px;
     box-shadow: 2px 2px 4px rgba(16, 16, 16, 0.42);
@@ -96,7 +96,7 @@ main .projetos .projetos-item .codepen {
 }
 
 .dark {
-    background: linear-gradient(236.85deg, #375b86 27.26%, #6b87a9 96.03%);
+    background: linear-gradient(236.85deg, #6d00cc 27.26%, #a947ff 96.03%);
 }
 
 .dark .container {

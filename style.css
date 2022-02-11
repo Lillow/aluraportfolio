@@ -2,7 +2,11 @@
 
 body {
     background: linear-gradient(236.85deg, #041832 27.26%, #3468a7 96.03%);
-    font-family: 'Press Start 2P', cursive;
+    font-family: 'Press Start 2P';
+}
+
+ul {
+    list-style: none;
 }
 
 .container {
@@ -15,36 +19,36 @@ body {
     max-width: 980px;
 }
 
-.container .cabecalho {
+.cabecalho {
     display: flex;
     justify-content: space-between;
 }
 
-.perfil {
+.cabecalho .perfil {
     display: flex;
 }
 
-.perfil-foto {
+.cabecalho .perfil .perfil-foto {
     border-radius: 460px;
     max-height: 160px;
     box-shadow: 0px 4px 4px rgba (0, 0, 0, 0.25);
 }
 
-.titulo {
+.cabecalho .perfil .titulo {
     margin-left: 16px;
 }
 
-.titulo h1 {
+.cabecalho .perfil .titulo h1 {
     font-weight: 700;
     font-size: 36px;
 }
 
-.titulo h3 {
+.cabecalho .perfil .titulo h3 {
     font-weight: 300;
     font-size: 21px;
 }
 
-.tema button {
+.cabecalho .tema button {
     align-self: flex-end;
     font-size: 24px;
     font-weight: 400;
@@ -53,7 +57,7 @@ body {
     border-radius: 100px;
 }
 
-.projetos {
+.container main .projetos {
     display: flex;
     flex-direction: column;
     align-items: right;
@@ -64,22 +68,31 @@ body {
     border-radius: 20px;
 }
 
-.projetos-titulo {
-    list-style: none;
+main .projetos .projetos-titulo {
     font-weight: 700;
     font-size: 36px;
 }
 
-.projetos-item {
-    list-style-type: none;
+main .projetos .projetos-item {
     font-size: 24px;
     font-weight: 400;
     line-height: 48px;
 }
 
-.projetos-item a {
+main .projetos .projetos-item a {
     color: #1c1c1c;
     text-decoration: none;
+}
+
+main .projetos .projetos-item .codepen {
+    height: 300px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid;
+    margin: 1em 0;
+    padding: 1em;
 }
 
 .dark {
@@ -102,59 +115,9 @@ body {
 }
 
 @media (max-width: 800px) {
-    body {
-        font-family: none;
-        font-size: 60%;
-    }
-
-    .cabecalho {
-        max-width: 100%;
-    }
     .perfil {
-        max-width: 60%;
-    }
-
-    .perfil-foto {
-        max-width: 60%;
-        max-height: 40%;
-    }
-
-    .tema button {
-        max-width: 60%;
-        max-height: 30%;
-    }
-
-    main {
-        max-width: 100%;
-    }
-}
-
-@media (max-width: 750px) {
-    body {
-        font-family: none;
-        font-size: 50%;
-    }
-
-    .perfil {
-        max-width: 60%;
-    }
-
-    .perfil-foto {
-        max-width: 30%;
-        max-height: 30%;
-    }
-}
-
-@media (max-width: 660px) {
-    body {
-        font-family: none;
-        font-size: 40%;
-    }
-
-    .perfil {
-        max-width: 40%;
-        font-size: 10%;
         flex-direction: column;
+        max-width: 60%;
     }
 
     .perfil-foto {
@@ -163,10 +126,74 @@ body {
     }
 
     .tema button {
-        max-width: 60%;
-        max-height: 30%;
-
         font-size: 15px;
-        text-align: center;
+        font-weight: 400;
+        padding: 8px 16px;
+    }
+}
+
+@media (max-width: 630px) {
+    .cabecalho .perfil .titulo h1 {
+        font-size: 99%;
+    }
+
+    .cabecalho .perfil .titulo h3 {
+        font-size: 66%;
+    }
+
+    .cabecalho .tema button {
+        font-size: 66%;
+    }
+
+    main .projetos .projetos-titulo {
+        font-size: 99%;
+    }
+
+    main .projetos .projetos-item {
+        font-size: 66%;
+    }
+}
+
+@media (max-width: 470px) {
+    .cabecalho .perfil .titulo h1 {
+        font-size: 66%;
+    }
+
+    .cabecalho .perfil .titulo h3 {
+        font-size: 33%;
+    }
+
+    .cabecalho .tema button {
+        font-size: 33%;
+    }
+
+    main .projetos .projetos-titulo {
+        font-size: 66%;
+    }
+
+    main .projetos .projetos-item {
+        font-size: 33%;
+    }
+}
+
+@media (max-width: 420px) {
+    .cabecalho .perfil .titulo h1 {
+        font-size: 33%;
+    }
+
+    .cabecalho .perfil .titulo h3 {
+        font-size: 15%;
+    }
+
+    .cabecalho .tema button {
+        font-size: 15%;
+    }
+
+    main .projetos .projetos-titulo {
+        font-size: 33%;
+    }
+
+    main .projetos .projetos-item {
+        font-size: 15%;
     }
 }

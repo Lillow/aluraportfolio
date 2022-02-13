@@ -136,99 +136,82 @@ main .projetos .projetos-item .codepen {
     color: #f6f6f6;
 }
 
-/* @media screen and (max-width: 800px) {
-    body {
-        overflow-x: hidden;
-    }
-
-    .container {
-        width: 90vw;
-        height: 100vh;
-        z-index: 999;
-        flex-direction: column;
-        padding-top: 100px;
-        visibility: hidden;
-    }
-
+@media screen and (max-width: 800px) {
     .perfil {
         flex-direction: column;
-        max-width: 60%;
     }
 
     .perfil-foto {
-        max-width: 60%;
-        max-height: 40%;
+        align-self: center;
+        max-width: 30vw;
+        max-height: 30vh;
     }
 
-    .tema button {
-        font-size: 15px;
-        font-weight: 400;
-        padding: 8px 16px;
-    }
-} */
-
-/* @media (max-width: 630px) {
     .cabecalho .perfil .titulo h1 {
-        font-size: 99%;
+        font-size: 3vh;
     }
 
     .cabecalho .perfil .titulo h3 {
-        font-size: 66%;
+        font-size: 1.5vh;
     }
 
     .cabecalho .tema button {
-        font-size: 66%;
+        max-width: 20vw;
+        max-height: 20vh;
+        font-size: 1.9vh;
     }
 
     main .projetos .projetos-titulo {
-        font-size: 99%;
+        font-size: 3vh;
     }
 
-    main .projetos .projetos-item {
-        font-size: 66%;
+    main .projetos .projetos-item a h3 {
+        font-size: 1.5vh;
     }
 }
 
-@media (max-width: 470px) {
+@media screen and (max-width: 500px) {
+    .container {
+        margin: 1vh;
+        padding: 0.9vh;
+    }
+
+    .container .cabecalho .tema {
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .container .cabecalho .tema button {
+        align-self: flex-start;
+        padding: 8px 8px;
+        max-width: 20vw;
+        max-height: 20vh;
+        font-size: 1.1vh;
+    }
+
+    .perfil-foto {
+        align-self: center;
+        max-width: 30vw;
+        max-height: 30vh;
+    }
+
     .cabecalho .perfil .titulo h1 {
-        font-size: 66%;
+        font-size: 1.5vh;
     }
 
     .cabecalho .perfil .titulo h3 {
-        font-size: 33%;
-    }
-
-    .cabecalho .tema button {
-        font-size: 33%;
+        font-size: 1vh;
     }
 
     main .projetos .projetos-titulo {
-        font-size: 66%;
+        font-size: 1.5vh;
     }
 
-    main .projetos .projetos-item {
-        font-size: 33%;
+    main .projetos .projetos-item a h3 {
+        font-size: 1vh;
+    }
+
+    .container main .projetos {
+        padding: 9px;
     }
 }
-
-@media (max-width: 420px) {
-    .cabecalho .perfil .titulo h1 {
-        font-size: 33%;
-    }
-
-    .cabecalho .perfil .titulo h3 {
-        font-size: 15%;
-    }
-
-    .cabecalho .tema button {
-        font-size: 15%;
-    }
-
-    main .projetos .projetos-titulo {
-        font-size: 33%;
-    }
-
-    main .projetos .projetos-item {
-        font-size: 15%;
-    }
-} */

@@ -9,19 +9,23 @@ ul {
     list-style: none;
 }
 
+a {
+    text-decoration: none;
+}
+
 .container {
-    background: #ecf4ff;
+    background: #f3f3f3;
     color: #000000;
-    margin: 64px;
+    margin: 6vh;
     border-radius: 20px;
-    box-shadow: 6px 6px 6px #0e1d2f;
-    padding: 64px;
-    max-width: 980px;
+    padding: 6vh;
+    max-width: 180vh;
 }
 
 .cabecalho {
     display: flex;
     justify-content: space-between;
+    max-width: 900vh;
 }
 
 .cabecalho .perfil {
@@ -29,13 +33,13 @@ ul {
 }
 
 .cabecalho .perfil .perfil-foto {
-    border-radius: 460px;
-    max-height: 160px;
+    border-radius: 50%;
+    max-height: 21vh;
     box-shadow: 0px 4px 4px rgba (0, 0, 0, 0.25);
 }
 
 .cabecalho .perfil .titulo {
-    margin-left: 16px;
+    text-align: center;
 }
 
 .cabecalho .perfil .titulo h1 {
@@ -51,41 +55,46 @@ ul {
 .cabecalho .tema button {
     align-self: flex-end;
     font-size: 24px;
-    font-weight: 400;
     padding: 8px 16px;
-    background: #ecf4ff;
+    background: #f3f3f3;
     border-radius: 100px;
+}
+
+.cabecalho .tema button:hover {
+    background: linear-gradient(230.65deg, #4e1f49 27.49%, #b35faa 83.19%);
+    color: #f3f3f3;
 }
 
 .container main .projetos {
     display: flex;
     flex-direction: column;
     align-items: right;
+    text-align: center;
     background: linear-gradient(230.65deg, #4e1f49 27.49%, #b35faa 83.19%);
     margin-top: 32px;
     padding: 32px;
-    box-shadow: 2px 2px 4px rgba(16, 16, 16, 0.42);
+    box-shadow: 3px 3px 6px rgba(16, 16, 16, 0.42);
     border-radius: 20px;
 }
 
 main .projetos .projetos-titulo {
-    font-weight: 700;
     font-size: 36px;
 }
 
 main .projetos .projetos-item {
     font-size: 24px;
-    font-weight: 400;
     line-height: 48px;
 }
 
 main .projetos .projetos-item a {
     color: #1c1c1c;
-    text-decoration: none;
+}
+
+main .projetos .projetos-item a h3:hover {
+    transform: scale(1.1);
 }
 
 main .projetos .projetos-item .codepen {
-    height: 300px;
     box-sizing: border-box;
     display: flex;
     align-items: center;
@@ -114,7 +123,33 @@ main .projetos .projetos-item .codepen {
     border: 2px solid #f7f7f7;
 }
 
-@media (max-width: 800px) {
+.dark .tema button:hover {
+    background: linear-gradient(230.65deg, #291227 27.49%, #3f1e3c 83.19%);
+}
+
+.dark .container main .projetos {
+    background: linear-gradient(230.65deg, #291227 27.49%, #3f1e3c 83.19%);
+    color: #f6f6f6;
+}
+
+.dark .container main h3 {
+    color: #f6f6f6;
+}
+
+/* @media screen and (max-width: 800px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    .container {
+        width: 90vw;
+        height: 100vh;
+        z-index: 999;
+        flex-direction: column;
+        padding-top: 100px;
+        visibility: hidden;
+    }
+
     .perfil {
         flex-direction: column;
         max-width: 60%;
@@ -130,9 +165,9 @@ main .projetos .projetos-item .codepen {
         font-weight: 400;
         padding: 8px 16px;
     }
-}
+} */
 
-@media (max-width: 630px) {
+/* @media (max-width: 630px) {
     .cabecalho .perfil .titulo h1 {
         font-size: 99%;
     }
@@ -196,4 +231,4 @@ main .projetos .projetos-item .codepen {
     main .projetos .projetos-item {
         font-size: 15%;
     }
-}
+} */

@@ -24,17 +24,21 @@ a {
 
 .cabecalho {
     display: flex;
+    flex-direction: column-reverse;
     justify-content: space-between;
     max-width: 900vh;
 }
 
 .cabecalho .perfil {
     display: flex;
+    flex-direction: column;
 }
 
 .cabecalho .perfil .perfil-foto {
     border-radius: 50%;
-    max-height: 21vh;
+    align-self: center;
+    max-width: 30vw;
+    max-height: 30vh;
     box-shadow: 0px 4px 4px rgba (0, 0, 0, 0.25);
 }
 
@@ -53,7 +57,7 @@ a {
 }
 
 .cabecalho .tema button {
-    align-self: flex-end;
+    align-self: flex-start;
     font-size: 24px;
     padding: 8px 16px;
     background: #f3f3f3;
@@ -137,16 +141,6 @@ main .projetos .projetos-item .codepen {
 }
 
 @media screen and (max-width: 800px) {
-    .perfil {
-        flex-direction: column;
-    }
-
-    .perfil-foto {
-        align-self: center;
-        max-width: 30vw;
-        max-height: 30vh;
-    }
-
     .cabecalho .perfil .titulo h1 {
         font-size: 3vh;
     }
@@ -176,23 +170,12 @@ main .projetos .projetos-item .codepen {
         padding: 0.9vh;
     }
 
-    .container .cabecalho .tema {
-        display: flex;
-        justify-content: flex-start;
-    }
-
     .container .cabecalho .tema button {
         align-self: flex-start;
         padding: 8px 8px;
         max-width: 20vw;
         max-height: 20vh;
-        font-size: 1.1vh;
-    }
-
-    .perfil-foto {
-        align-self: center;
-        max-width: 30vw;
-        max-height: 30vh;
+        font-size: 0.6rem;
     }
 
     .cabecalho .perfil .titulo h1 {

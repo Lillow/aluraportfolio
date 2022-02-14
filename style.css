@@ -114,7 +114,6 @@ main .projetos .projetos-item .codepen {
 
 .dark .container {
     background: #333439;
-    color: #f6f6f6;
 }
 
 .dark .projetos {
@@ -123,7 +122,6 @@ main .projetos .projetos-item .codepen {
 
 .dark .tema button {
     background: #1c1c1c;
-    color: #f6f6f6;
     border: 2px solid #f7f7f7;
 }
 
@@ -133,10 +131,9 @@ main .projetos .projetos-item .codepen {
 
 .dark .container main .projetos {
     background: linear-gradient(230.65deg, #291227 27.49%, #3f1e3c 83.19%);
-    color: #f6f6f6;
 }
 
-.dark .container main h3 {
+.dark * {
     color: #f6f6f6;
 }
 
